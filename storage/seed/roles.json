@@ -1,0 +1,94 @@
+[
+  {
+    "id": "31b22992-cc69-4bcd-a10f-dd6abf6d0073",
+    "type": "USER",
+    "name": "User",
+    "description": "Default role",
+    "permissions": {
+      "admin": {
+        "staff_me": {
+          "view": "true"
+        }
+      }
+    }
+  },
+  {
+    "id": "11a1111a-1111-1a11-11a1-1ff111111112",
+    "type": "SUPER_ADMIN",
+    "name": "Super Admin",
+    "description": "Super Admin can do anything",
+    "permissions": {
+      "*": {
+        "*": {
+          "*": "*"
+        }
+      }
+    }
+  },
+  {
+    "id": "852db843-8626-408c-ae3f-20256872441e",
+    "type": "ADMIN",
+    "name": "Admin",
+    "description": "Admin do not have access to settings",
+    "permissions": {
+      "admin": {
+        "staff_me": {
+          "view": "true",
+          "log": "true"
+        },
+        "staff": {
+          "view": "true",
+          "create": "true",
+          "update": "true",
+          "delete": "true",
+          "unlock": "true"
+        },
+        "user": {
+          "view": "true",
+          "create": "true",
+          "update": "true",
+          "delete": "true",
+          "unlock": "true"
+        }
+      }
+    }
+  },
+  {
+    "id": "02b78806-3e14-5570-a619-1f3b4a655df7",
+    "type": "MARKETING",
+    "name": "Marketing",
+    "description": "Marketing",
+    "permissions": {
+      "admin": {
+        "user": {
+          "view": "true",
+          "create": "true",
+          "update": "true",
+          "delete": "true",
+          "unlock": "true"
+        }
+      }
+    }
+  },
+  {
+    "id": "becfe7a7-fda5-596c-90e6-ab861014e9d8",
+    "type": "CALLCENTER",
+    "name": "Callcenter",
+    "description": "Call center",
+    "permissions": {
+      "admin": {
+        "staff_me": {
+          "view": "true",
+          "log": "true"
+        },
+        "user": {
+          "view": "true",
+          "create": "true",
+          "update": "true",
+          "delete": "true",
+          "unlock": "true"
+        }
+      }
+    }
+  }
+]

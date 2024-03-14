@@ -1,0 +1,44 @@
+version: "3"
+services:
+  db:
+    container_name: base-services-db
+    image: postgres:latest
+    restart: always
+    ports:
+      - "5432:${POSTGRES_PORT:-5432}"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-changeuserhere}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-changepasswordhere}
+      POSTGRES_DB: ${POSTGRES_DB:-changedbnamehere}
+    volumes:
+      - ./docker/db:/var/lib/postgresql/data
+  redis:
+    container_name: base-services-redis
+    image: redis:latest
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - ./docker/redis:/data
+  redis-commander:
+    container_name: base-services-redis-commander
+    image: rediscommander/redis-commander:latest
+    platform: linux/amd64
+    restart: always
+    ports:
+      - "8089:8081"
+    environment:
+      REDIS_HOSTS: local:redis:6379
+  tlsserver:
+    container_name: base-services-tlsserver
+    image: nginx:latest
+    restart: always
+    ports:
+      - "443:443"
+    volumes:
+      - ./docker/tls/nginx:/etc/nginx/conf.d
+      - ./docker/tls/certs:/etc/nginx/certs
+      - ./docker/tls/logs:/var/log/nginx
+    depends_on:
+      - db
+      - redis

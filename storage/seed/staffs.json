@@ -1,0 +1,77 @@
+[
+  {
+    "id": "d4feb120-9d7a-5d37-ab24-0c020e63210f",
+    "email": "admin1@admin.com",
+    "password": "Passw0rd!",
+    "first_name": "supachai",
+    "last_name": "phobpimai",
+    "is_verified": true,
+    "role_id": "852db843-8626-408c-ae3f-20256872441e",
+    "status": "active",
+    "phone": "0812345678"
+  },
+  {
+    "id": "35b453a5-3639-5afb-b99b-276fafccf913",
+    "email": "super_admin1@admin.com",
+    "password": "Passw0rd!",
+    "first_name": "supachai",
+    "last_name": "phobpimai",
+    "is_verified": true,
+    "role_id": "11a1111a-1111-1a11-11a1-1ff111111112",
+    "status": "active",
+    "phone": "0912345678"
+  },
+  {
+    "id": "eec2b1cb-5864-4e20-907d-8b9635d9e840",
+    "email": "user1@sales.com",
+    "password": "Passw0rd!",
+    "first_name": "supachai",
+    "last_name": "phobpimai",
+    "is_verified": true,
+    "role_id": "31b22992-cc69-4bcd-a10f-dd6abf6d0073",
+    "status": "active",
+    "phone": "0931231212"
+  },
+  {
+    "id": "8991d0ac-2b43-5280-bb5c-aaa4ba3c6dd5",
+    "email": "phatsaran.ming@gmail.com",
+    "password": "Passw0rd!",
+    "first_name": "ภัทร์ศรัณย์",
+    "last_name": "สวาทยานนท์",
+    "is_verified": true,
+    "role_id": "852db843-8626-408c-ae3f-20256872441e",
+    "status": "active",
+    "phone": "0989263955"
+  },
+  {
+    "id": "8ae83e2e-1328-5f47-8a03-55dd690400a3",
+    "email": "aratchapon.p@gmail.com",
+    "password": "Passw0rd!",
+    "first_name": "อรัชพร",
+    "last_name": "ภูริปรีชา",
+    "is_verified": true,
+    "role_id": "852db843-8626-408c-ae3f-20256872441e",
+    "status": "inactive",
+    "phone": "0886245399"
+  },
+  {
+    "id": "d09e7c88-0a01-5c99-b7e4-692e9aea5ef0",
+    "email": "chadaporn.p@gmail.com",
+    "password": "Passw0rd!",
+    "first_name": "ชฎาพร",
+    "last_name": "สวาทยานนท์",
+    "is_verified": true,
+    "role_id": "02b78806-3e14-5570-a619-1f3b4a655df7",
+    "status": "active"
+  },
+  {
+    "id": "19f3d1a5-6066-5427-b30a-6b26c4337922",
+    "email": "aratchapon.p2@gmail.com",
+    "password": "Passw0rd!",
+    "first_name": "อรัชพร",
+    "last_name": "ภูริปรีชา",
+    "is_verified": true,
+    "role_id": "becfe7a7-fda5-596c-90e6-ab861014e9d8",
+    "status": "active"
+  }
+]

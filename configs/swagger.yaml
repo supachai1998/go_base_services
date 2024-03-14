@@ -1,0 +1,9 @@
+swaggertitle: "Swagger Go API"
+swaggerdescription: "This is a sample server Go-base server."
+swaggercontact:
+  name: "API Support"
+  url: "http://www.swagger.io/support"
+  email: "go-base@contact.com"
+swaggerlicense:
+  name: "Apache 2.0"
+  url: "http://www.apache.org/licenses/LICENSE-2.0.html"

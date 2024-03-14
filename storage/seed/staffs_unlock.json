@@ -1,0 +1,18 @@
+[
+  {
+    "email": "unlocktest1@admin.com",
+    "password": "Passw0rd!",
+    "first_name": "supachai",
+    "last_name": "phobpimai",
+    "is_verified": true,
+    "role_id": "76a9733c-3654-4c11-94d5-4ff522482771"
+  },
+  {
+    "email": "unlocktest2@admin.com",
+    "password": "Passw0rd!",
+    "first_name": "supachai",
+    "last_name": "phobpimai",
+    "is_verified": false,
+    "role_id": "76a9733c-3654-4c11-94d5-4ff522482771"
+  }
+]

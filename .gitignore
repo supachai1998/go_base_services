@@ -1,0 +1,9 @@
+docker/*
+*secret*
+!*.example*
+logger/log/*
+*.DS_Store
+*.out
+.dccache
+tmp
+vendor

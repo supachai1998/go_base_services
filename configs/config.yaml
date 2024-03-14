@@ -1,0 +1,12 @@
+env: development
+server:
+  port: 3001
+  shutdowntimeout: 30s
+  requesttimeout: 30s
+prettylog: true
+base_url: http://localhost:3001
+cacheexpirestaff: 60s
+echodata: # คือ log print request และ response 
+  req: true
+  res: false
+

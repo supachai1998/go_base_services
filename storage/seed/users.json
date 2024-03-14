@@ -1,0 +1,40 @@
+[
+  {
+    "email": "user1@gmail.com",
+    "password": "Passw0rd!",
+    "first_name": "user",
+    "last_name": "lastname",
+    "is_verified": true,
+    "budget_buy": 20000000,
+    "budget_sell": 600000000,
+    "budget_per_month": 10000000,
+    "phone": "0999999999",
+    "source": "facebook",
+    "staff_id": "eec2b1cb-5864-4e20-907d-8b9635d9e840",
+    "todo": "follow",
+    "todo_at": "2024-03-04T00:00:00.000Z",
+    "type": ["buyer", "seller"],
+    "interest": ["buy", "sell", "manage"],
+    "status": "booking",
+    "tag": ["condo", "sukhumvit", "pet_friendly"]
+  },
+  {
+    "email": "user2@gmail.com",
+    "password": "Passw0rd!",
+    "first_name": "user2",
+    "last_name": "lastname2",
+    "is_verified": false,
+    "budget_buy": 100000000,
+    "budget_sell": 1000000,
+    "budget_per_month": 20000000,
+    "phone": "0888888888",
+    "source": "twitter",
+    "staff_id": "eec2b1cb-5864-4e20-907d-8b9635d9e840",
+    "todo": "call",
+    "todo_at": "2025-03-04T00:00:00.000Z",
+    "type": ["seller"],
+    "interest": ["sell", "manage"],
+    "status": "offering",
+    "tag": ["house", "prakanong", "swimming_pool"]
+  }
+]
